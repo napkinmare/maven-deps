@@ -1,0 +1,26 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+ 	<groupId>com.mycompany.app</groupId>
+	<artifactId>my-app</artifactId>
+	<version>1</version>
+
+	<repositories>
+		<repository>
+		<id>plugin</id>
+		<name>plugin</name>
+		<url>https://plugins.gradle.org/m2</url>
+		</repository>
+
+		<id>central</id>
+		<name>central</name>
+		<url>https://repo.maven.org/maven2</url>
+		</repository>
+
+		<repository>
+		<id>google</id>
+		<name>google</name>
+		<url>https://maven.google.com</url>
+		</repository>
+
+	</repositories>
+</project>
